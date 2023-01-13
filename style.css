@@ -1,0 +1,109 @@
+section.header{
+    background: url(./image-hero.jpg) center no-repeat;
+    height: 600px;
+    padding-left: 120px;
+}
+section .text-banner {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    position: relative;
+    font-size: 62px;
+    max-width: 500px;
+}
+
+section .text-banner div{
+    border: 4px solid white;
+    text-align: center;
+}
+
+section a{
+    color: white !important;
+}
+.navbar-brand{
+    font-size: 32px;
+    font-weight: bold;
+}
+#navbarNavDropdown{
+    margin: 0 120px;
+}
+
+/*body*/
+.main-one {
+    margin-top: 120px;
+    min-height: 700px
+}
+.main-one .container {
+    position: relative;
+}
+.main-one .container figure{
+    max-width: 60%;
+    position: absolute;
+}
+.main-one .container figure img{
+    width: 100%;
+}
+
+.main-one .container div{
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    right: 10px;
+    top: 300px;
+    padding: 60px;
+}
+.main-one .container div h1{
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 300;
+}
+.main-one .container div p{
+    font-size: 14px;
+    color: gray;
+}
+
+.main-two {
+    padding: 0 120px;
+    min-height: 80px;
+}
+
+.main-two .title{
+    position: relative;
+}
+.main-two .title h1{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 300;
+}
+.main-two .title button{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    right: 0;
+    background: white;
+    padding: 10px 50px;
+    letter-spacing: 2px;
+}
+
+.row {
+    padding: 0 120px;
+}
+.row img{
+    width: 100%;
+}
+.container-fluid{
+    position: relative;
+}
+.row p{
+    POSITION: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 35px;
+    padding: 0 15px;
+    max-width: 200px;
+}
+
